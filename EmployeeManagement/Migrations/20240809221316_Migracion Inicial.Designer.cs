@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EmployeeManagement.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240808173947_CreateInitialSchema")]
-    partial class CreateInitialSchema
+    [Migration("20240809221316_Migracion Inicial")]
+    partial class MigracionInicial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -44,6 +44,26 @@ namespace EmployeeManagement.Migrations
                     b.HasKey("DepartmentId");
 
                     b.ToTable("Departments");
+
+                    b.HasData(
+                        new
+                        {
+                            DepartmentId = 1,
+                            Description = "Encargado de las relaciones laborales, nóminas, beneficios y capacitación.",
+                            Name = "Recursos Humanos"
+                        },
+                        new
+                        {
+                            DepartmentId = 2,
+                            Description = "Gestiona la tecnología de la empresa, la infraestructura y la seguridad.",
+                            Name = "Tecnología"
+                        },
+                        new
+                        {
+                            DepartmentId = 3,
+                            Description = "Responsable de impulsar las ventas y gestionar las relaciones con los clientes.",
+                            Name = "Ventas"
+                        });
                 });
 
             modelBuilder.Entity("EmployeeManagement.Models.Employee", b =>
@@ -79,6 +99,53 @@ namespace EmployeeManagement.Migrations
                     b.HasIndex("DepartmentId");
 
                     b.ToTable("Employees");
+
+                    b.HasData(
+                        new
+                        {
+                            EmployeeId = 1,
+                            BirthDate = new DateTime(1985, 5, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DepartmentId = 1,
+                            HireDate = new DateTime(2010, 8, 15, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "John Doe",
+                            Salary = 50000m
+                        },
+                        new
+                        {
+                            EmployeeId = 2,
+                            BirthDate = new DateTime(1990, 3, 10, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DepartmentId = 2,
+                            HireDate = new DateTime(2015, 1, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Jane Smith",
+                            Salary = 70000m
+                        },
+                        new
+                        {
+                            EmployeeId = 3,
+                            BirthDate = new DateTime(1992, 7, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DepartmentId = 1,
+                            HireDate = new DateTime(2016, 9, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Alice Johnson",
+                            Salary = 60000m
+                        },
+                        new
+                        {
+                            EmployeeId = 4,
+                            BirthDate = new DateTime(1988, 2, 18, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DepartmentId = 3,
+                            HireDate = new DateTime(2012, 11, 19, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Bob Brown",
+                            Salary = 55000m
+                        },
+                        new
+                        {
+                            EmployeeId = 5,
+                            BirthDate = new DateTime(1995, 12, 5, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            DepartmentId = 2,
+                            HireDate = new DateTime(2018, 4, 20, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Charlie Davis",
+                            Salary = 48000m
+                        });
                 });
 
             modelBuilder.Entity("EmployeeManagement.Models.Employee", b =>

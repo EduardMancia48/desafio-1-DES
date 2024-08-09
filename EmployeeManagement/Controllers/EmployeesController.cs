@@ -92,6 +92,7 @@ namespace EmployeeManagement.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("EmployeeId,Name,BirthDate,HireDate,Salary,Description,DepartmentId")] Employee employee)
         {
+            ModelState.Remove("Department");
             if (id != employee.EmployeeId)
             {
                 return NotFound();
