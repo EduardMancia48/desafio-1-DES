@@ -1,0 +1,14 @@
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\bin\Debug\net8.0\EmployeeManagement.Core.deps.json
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\bin\Debug\net8.0\EmployeeManagement.Core.runtimeconfig.json
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\bin\Debug\net8.0\EmployeeManagement.Core.dll
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\bin\Debug\net8.0\EmployeeManagement.Core.pdb
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\obj\Debug\net8.0\EmployeeManagement.Core.csproj.AssemblyReference.cache
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\obj\Debug\net8.0\EmployeeManagement.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\obj\Debug\net8.0\EmployeeManagement.Core.AssemblyInfoInputs.cache
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\obj\Debug\net8.0\EmployeeManagement.Core.AssemblyInfo.cs
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\obj\Debug\net8.0\EmployeeManagement.Core.csproj.CoreCompileInputs.cache
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\obj\Debug\net8.0\EmployeeManagement.Core.dll
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\obj\Debug\net8.0\refint\EmployeeManagement.Core.dll
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\obj\Debug\net8.0\EmployeeManagement.Core.pdb
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\obj\Debug\net8.0\EmployeeManagement.Core.genruntimeconfig.cache
+C:\Users\eduar\source\repos\EmployeeManagementAPI\EmployeeManagement.Core\obj\Debug\net8.0\ref\EmployeeManagement.Core.dll
